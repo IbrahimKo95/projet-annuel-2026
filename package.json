@@ -1,0 +1,28 @@
+{
+  "name": "projet-annuel-2026",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.3.0",
+    "@prisma/client": "^7.3.0",
+    "@tailwindcss/vite": "^4.1.18",
+    "dotenv": "^17.2.3",
+    "nuxt": "^4.3.0",
+    "pg": "^8.17.2",
+    "tailwindcss": "^4.1.18",
+    "vue": "^3.5.27",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "@types/pg": "^8.16.0",
+    "prisma": "^7.3.0"
+  }
+}
