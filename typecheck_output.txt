@@ -1,0 +1,60 @@
+[sidebase-auth] ℹ nuxt-auth setup starting
+[sidebase-auth] ✔ nuxt-auth setup done
+app/components/Navbar.vue(12,41): error TS2339: Property 'role' does not exist on type '{ name?: string | null | undefined; email?: string | null | undefined; image?: string | null | undefined; }'.
+app/components/Navbar.vue(12,78): error TS2339: Property 'role' does not exist on type '{ name?: string | null | undefined; email?: string | null | undefined; image?: string | null | undefined; }'.
+app/pages/courses/[id].vue(13,27): error TS2339: Property 'title' does not exist on type '{}'.
+app/pages/courses/[id].vue(18,29): error TS2339: Property 'instructor' does not exist on type '{}'.
+app/pages/courses/[id].vue(22,29): error TS2339: Property 'category' does not exist on type '{}'.
+app/pages/courses/[id].vue(40,75): error TS2339: Property 'description' does not exist on type '{}'.
+app/pages/courses/[id].vue(46,46): error TS2339: Property 'modules' does not exist on type '{}'.
+app/pages/courses/[id].vue(72,63): error TS2339: Property 'prerequisites' does not exist on type '{}'.
+app/pages/courses/[id]/learn.vue(10,22): error TS2339: Property 'title' does not exist on type '{}'.
+app/pages/courses/[id]/learn.vue(19,39): error TS2339: Property 'modules' does not exist on type '{}'.
+app/pages/courses/[id]/learn.vue(107,37): error TS2339: Property 'modules' does not exist on type '{}'.
+app/pages/courses/[id]/learn.vue(119,40): error TS2339: Property 'modules' does not exist on type '{}'.
+app/pages/courses/[id]/learn.vue(125,19): error TS18046: 'course.value' is of type 'unknown'.
+app/pages/courses/[id]/learn.vue(132,26): error TS18046: 'course.value' is of type 'unknown'.
+app/pages/courses/[id]/quiz/[quizId].vue(14,18): error TS2365: Operator '+' cannot be applied to types 'string | number' and 'number'.
+app/pages/instructor/index.vue(100,88): error TS2339: Property 'id' does not exist on type '{ name?: string | null | undefined; email?: string | null | undefined; image?: string | null | undefined; }'.
+app/pages/messages.vue(12,55): error TS2339: Property 'id' does not exist on type '{ name?: string | null | undefined; email?: string | null | undefined; image?: string | null | undefined; }'.
+app/pages/messages.vue(17,55): error TS2339: Property 'id' does not exist on type '{ name?: string | null | undefined; email?: string | null | undefined; image?: string | null | undefined; }'.
+server/api/auth/[...].ts(52,23): error TS7031: Binding element 'token' implicitly has an 'any' type.
+server/api/auth/[...].ts(52,30): error TS7031: Binding element 'user' implicitly has an 'any' type.
+server/api/auth/[...].ts(59,27): error TS7031: Binding element 'session' implicitly has an 'any' type.
+server/api/auth/[...].ts(59,36): error TS7031: Binding element 'token' implicitly has an 'any' type.
+server/api/courses/enroll.post.ts(2,27): error TS2304: Cannot find name 'getServerSession'.
+server/api/courses/index.post.ts(12,27): error TS2304: Cannot find name 'getServerSession'.
+server/api/courses/progress.post.ts(2,27): error TS2304: Cannot find name 'getServerSession'.
+server/api/messages/index.get.ts(2,27): error TS2304: Cannot find name 'getServerSession'.
+server/api/messages/send.post.ts(2,27): error TS2304: Cannot find name 'getServerSession'.
+server/api/quizzes/[id]/submit.post.ts(11,27): error TS2304: Cannot find name 'getServerSession'.
+server/api/quizzes/[id]/submit.post.ts(52,46): error TS7006: Parameter 'q' implicitly has an 'any' type.
+server/api/quizzes/[id]/submit.post.ts(54,53): error TS7006: Parameter 'a' implicitly has an 'any' type.
+server/api/stats/summary.get.ts(2,27): error TS2304: Cannot find name 'getServerSession'.
+server/api/auth/[...].ts(52,23): error TS7031: Binding element 'token' implicitly has an 'any' type.
+server/api/auth/[...].ts(52,30): error TS7031: Binding element 'user' implicitly has an 'any' type.
+server/api/auth/[...].ts(59,27): error TS7031: Binding element 'session' implicitly has an 'any' type.
+server/api/auth/[...].ts(59,36): error TS7031: Binding element 'token' implicitly has an 'any' type.
+server/api/courses/enroll.post.ts(2,27): error TS2304: Cannot find name 'getServerSession'.
+server/api/courses/index.post.ts(12,27): error TS2304: Cannot find name 'getServerSession'.
+server/api/courses/progress.post.ts(2,27): error TS2304: Cannot find name 'getServerSession'.
+server/api/messages/index.get.ts(2,27): error TS2304: Cannot find name 'getServerSession'.
+server/api/messages/send.post.ts(2,27): error TS2304: Cannot find name 'getServerSession'.
+server/api/quizzes/[id]/submit.post.ts(11,27): error TS2304: Cannot find name 'getServerSession'.
+server/api/quizzes/[id]/submit.post.ts(52,46): error TS7006: Parameter 'q' implicitly has an 'any' type.
+server/api/quizzes/[id]/submit.post.ts(54,53): error TS7006: Parameter 'a' implicitly has an 'any' type.
+server/api/stats/summary.get.ts(2,27): error TS2304: Cannot find name 'getServerSession'.
+
+ ERROR  Process exited with non-zero status (2)
+
+    at G._waitForOutput (node_modules/tinyexec/dist/main.js:574:92)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.run (node_modules/@nuxt/cli/dist/typecheck-B-jIcMjP.mjs:66:3)
+    at async runCommand (node_modules/citty/dist/index.mjs:316:16)
+    at async runCommand (node_modules/citty/dist/index.mjs:307:11)
+    at async runMain (node_modules/citty/dist/index.mjs:445:7) 
+
+
+
+ ERROR  Process exited with non-zero status (2)
+
